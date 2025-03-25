@@ -50,13 +50,15 @@ export const projectsData = [
             "Casual PVP Match3 game using Akka and AWS. Developed multilayer dynamics, meta mini-games, optimized game logic, and built a reactive UI.",
         tags: ["Unity", "C#", "Akka", "AWS", "Multiplayer"],
         imageUrl: match3Img,
+        learnMoreUrl: "https://play.google.com/store/apps/details?id=com.matchstars.match3starspvpchampions",
     },
     {
-        title: "Bingo: Love in Montana",
+        title: "Bingo",
         description:
             "Casual bingo game. Developed backend on AWS to ensure stable multiplayer interactions, smooth performance, and responsive UI.",
         tags: ["Unity", "C#", ".NET", "AWS", "Multiplayer"],
         imageUrl: bingoImg,
+        learnMoreUrl: "https://play.google.com/store/apps/details?id=com.Galaxy4Games.BingoLoveinMontana&hl=en_US&gl=US",
     },
     {
         title: "Undeads MMORPG",
@@ -64,13 +66,15 @@ export const projectsData = [
             "MMORPG survival game on the Ethereum blockchain with in-game NFTs. Built scalable architectures using AWS, Mirror, and a custom .NET server.",
         tags: ["Unity", "C#", ".NET", "Blockchain", "AWS", "Mirror"],
         imageUrl: undeadsImg,
+        learnMoreUrl: "https://undeads.com/",
     },
     {
-        title: "Puzzle Fight: PvP Wars",
+        title: "Puzzle Fight",
         description:
             "Real-time Match-3 PvP game. Architected backend with AWS and .NET for seamless multiplayer, matchmaking, and in-game economy.",
         tags: ["Unity", "C#", ".NET", "AWS", "Mirror", "Match-3"],
         imageUrl: puzzlefightImg,
+        learnMoreUrl: "https://galaxy4games.com/our-work/projects/puzzlefight/",
     },
     {
         title: "Handy Candy",
@@ -78,6 +82,7 @@ export const projectsData = [
             "Hyper-casual mobile title. Created reusable game systems to reduce development time and support rapid prototyping for quality releases.",
         tags: ["Unity", "C#", "Android/iOS", "Clean Code", "2D/3D"],
         imageUrl: handycandyImg,
+        learnMoreUrl: "https://gitlab.com/unitysource/projects/bear",
     },
     {
         title: "Cosmo Car",
@@ -85,6 +90,7 @@ export const projectsData = [
             "Personal hyper-casual project featuring procedural road generation and vehicle control mechanics for engaging gameplay.",
         tags: ["Unity", "C#", "Hyper-casual", "Procedural"],
         imageUrl: cosmoCarImg,
+        learnMoreUrl: "https://gitlab.com/unitysource/projects/cosmo-car",
     },
     {
         title: "Among Us",
@@ -92,6 +98,7 @@ export const projectsData = [
             "Team project under tight deadlines. Implemented IO-based gameplay and a simulated multiplayer system to capture cooperative challenges.",
         tags: ["Unity", "C#", "Multiplayer", "Game Jam"],
         imageUrl: amongusImg,
+        learnMoreUrl: "https://gitlab.com/unitysource/projects/among-us",
     },
     {
         title: "Reactor",
@@ -99,6 +106,7 @@ export const projectsData = [
             "Indie Arkanoid idle project. Brainstormed ideas, documented gameplay mechanics, and prepared for public presentation in an indie setup.",
         tags: ["Unity", "C#", "Indie", "Arkanoid"],
         imageUrl: reactorImg,
+        learnMoreUrl: "https://gitlab.com/unitysource/projects/reactor",
     },
     {
         title: "Ragalik",
@@ -106,6 +114,7 @@ export const projectsData = [
             "Roguelike game exploring world mechanics, weapon systems, and pathfinding. Project stalled early but showcased promising design efforts.",
         tags: ["Unity", "C#", "Roguelike", "Pathfinding"],
         imageUrl: ragalikImg,
+        learnMoreUrl: "https://gitlab.com/unitysource/projects/ragalik",
     },
     {
         title: "Worm",
@@ -113,6 +122,7 @@ export const projectsData = [
             "Personal hyper-casual project featuring spline development and mesh generation for a unique, dynamic gameplay experience.",
         tags: ["Unity", "C#", "Hyper-casual", "Mesh"],
         imageUrl: wormImg,
+        learnMoreUrl: "https://gitlab.com/unitysource/wormrearchitect",
     },
     {
         title: "Mr Escape",
@@ -120,13 +130,15 @@ export const projectsData = [
             "Puzzle game with a physics engine. Completed as a test project using off-the-shelf packages with custom animation tweaks.",
         tags: ["Unity", "C#", "Puzzle", "Physics"],
         imageUrl: mrEscapeImg,
+        learnMoreUrl: "https://gitlab.com/unitysource/projects/mr-escape",
     },
     {
-        title: "Ghost Of Ukraine / Ukraine Rain",
+        title: "Ghost Of Ukraine",
         description:
             "Freelance mobile games supporting the Ukrainian army. Delivered simple graphics and mechanics for rapid, impactful engagement.",
         tags: ["Unity", "C#", "Mobile", "Freelance"],
         imageUrl: ghostUkraineImg,
+        learnMoreUrl: "https://gitlab.com/unitysource/projects/help_ukraine/ghost-of-ukraine",
     },
     {
         title: "Dad Simulator",
@@ -134,6 +146,7 @@ export const projectsData = [
             "Fun game developed in two days during a game jam. Focused on dialogues and rapid team collaboration to deliver a quirky simulation.",
         tags: ["Unity", "C#", "Game Jam", "Simulation"],
         imageUrl: dadSimulatorImg,
+        learnMoreUrl: "https://jurilents.itch.io/grandpa-simulator",
     },
 ] as const;
 

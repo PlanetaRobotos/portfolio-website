@@ -9,41 +9,30 @@ export default function About() {
   const { ref } = useSectionInView("About");
 
   return (
-    <motion.section
-      ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
-      initial={{ opacity: 0, y: 100 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 0.175 }}
-      id="about"
-    >
-      <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
+      <motion.section
+          ref={ref}
+          className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+          initial={{opacity: 0, y: 100}}
+          animate={{opacity: 1, y: 0}}
+          transition={{delay: 0.175}}
+          id="about"
+      >
+        <SectionHeading>About me</SectionHeading>
+        <p className="mb-3">
+          I’m a results-driven <span className="font-medium">Unity & .NET Engineer</span> with over <span
+            className="font-medium">5 years of experience</span> developing VR, multiplayer, and casual games. I
+          specialize in <span className="font-medium">performance optimization</span>, scalable architectures, and <span
+            className="font-medium">immersive user experiences</span>. My background includes designing AI-driven VR
+          therapeutic applications, implementing large-scale .NET frameworks, and crafting re-usable gameplay systems to
+          accelerate development and ensure high-quality outcomes.
+        </p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-      </p>
-    </motion.section>
+        <p>
+          Equipped with a Bachelor’s in Information Systems, I bring a keen eye for innovative solutions and a passion
+          for pushing technical boundaries. Whether building scenario-based VR training or architecting complex
+          multiplayer worlds, I thrive on delivering robust, impactful software that elevates player engagement and
+          fosters continuous innovation.
+        </p>
+      </motion.section>
   );
 }

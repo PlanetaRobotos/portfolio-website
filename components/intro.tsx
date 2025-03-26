@@ -2,13 +2,13 @@
 
 import Image from "next/image";
 import React from "react";
-import { motion } from "framer-motion";
+import {motion} from "framer-motion";
 import Link from "next/link";
-import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
+import {BsArrowRight, BsLinkedin} from "react-icons/bs";
+import {HiDownload} from "react-icons/hi";
 import {FaGithubSquare, FaGitlab} from "react-icons/fa";
-import { useSectionInView } from "@/lib/hooks";
-import { useActiveSectionContext } from "@/context/active-section-context";
+import {useSectionInView} from "@/lib/hooks";
+import {useActiveSectionContext} from "@/context/active-section-context";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);

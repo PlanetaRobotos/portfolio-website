@@ -130,23 +130,7 @@ export const projectsData = [
         tags: ["Unity", "C#", "Puzzle", "Physics"],
         imageUrl: mrEscapeImg,
         learnMoreUrl: "https://gitlab.com/unitysource/projects/mr-escape",
-    },
-    {
-        title: "Ghost Of Ukraine",
-        description:
-            "Freelance mobile games supporting the Ukrainian army. Delivered simple graphics and mechanics for rapid, impactful engagement.",
-        tags: ["Unity", "C#", "Mobile", "Freelance"],
-        imageUrl: ghostUkraineImg,
-        learnMoreUrl: "https://gitlab.com/unitysource/projects/help_ukraine/ghost-of-ukraine",
-    },
-    {
-        title: "Dad Simulator",
-        description:
-            "Fun game developed in two days during a game jam. Focused on dialogues and rapid team collaboration to deliver a quirky simulation.",
-        tags: ["Unity", "C#", "Game Jam", "Simulation"],
-        imageUrl: dadSimulatorImg,
-        learnMoreUrl: "https://jurilents.itch.io/grandpa-simulator",
-    },
+    }
 ] as const;
 
 export const experiencesData = [

@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Pavlo | Personal Portfolio",
-  description: "Pavlo Myrskyi is a Unity developer with 5+ years of experience.",
+  description: "Unity Developer with 5+ years of experience.",
 };
 
 export default function RootLayout({

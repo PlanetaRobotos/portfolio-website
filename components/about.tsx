@@ -12,7 +12,7 @@ function FullText() {
     return (
         <>
             <p className="mb-3">
-                I’m a results-driven <span className="font-medium">Unity & .NET Engineer</span>{" "}
+                I’m a results-driven <span className="font-medium">VR & Full Stack Engineer</span>{" "}
                 with over <span className="font-medium">5 years of experience</span> developing VR,
                 multiplayer, and casual games. I specialize in{" "}
                 <span className="font-medium">performance optimization</span>, scalable architectures,
@@ -32,7 +32,7 @@ function FullText() {
 function ShortText() {
     return (
         <p className="mb-3">
-            I’m a results-driven <span className="font-medium">Unity & .NET Engineer</span>{" "}
+            I’m a results-driven <span className="font-medium">VR & Full Stack Engineer</span>{" "}
             with over <span className="font-medium">5 years of experience</span> developing VR,
             multiplayer, and casual games. I specialize in{" "}
             <span className="font-medium">performance optimization</span>, scalable architectures,
@@ -88,11 +88,11 @@ export default function About() {
                     <ul className="list-disc list-inside space-y-2">
                         <li>
                             <span className="font-semibold">Performance Optimization</span>:
-                            Expertise in profiling and optimizing Unity & .NET applications.
+                            Expertise in profiling and optimizing VR applications.
                         </li>
                         <li>
                             <span className="font-semibold">Scalable Architectures</span>:
-                            Building large-scale .NET frameworks for VR/AR experiences.
+                            Building large-scale frameworks for VR/AR experiences.
                         </li>
                         <li>
                             <span className="font-semibold">Immersive Experiences</span>:
@@ -100,7 +100,7 @@ export default function About() {
                         </li>
                         <li>
                             <span className="font-semibold">Multiplayer Development</span>:
-                            Creating real-time, high-concurrency worlds.
+                            Creating real-time, high-concurrency worlds with .NET.
                         </li>
                     </ul>
                 </div>
